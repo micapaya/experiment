@@ -28,6 +28,8 @@ nav span {
   transition: .2s ease-in;
   text-align: left;
   background: black;
+  border: 1px solid black;
+  border-right: none;
   padding: 12px; }
 
 nav span:hover {
@@ -39,6 +41,7 @@ nav span:hover {
 
 .display_grid {
   display: grid;
+  overflow: hidden;
   width: 100vw;
   height: 100vh;
   grid-template-columns: 7fr 3fr; }
@@ -153,5 +156,32 @@ h2 {
   font-size: .6em;
   margin-top: -2.4em;
   letter-spacing: 10px; }
+
+.section_1,
+.section_2,
+.section_3,
+.section_4 {
+  width: 50vw;
+  height: 30vh; }
+
+.section_1 {
+  background: orange;
+  transform: translateZ(-208px) rotateX(66deg) rotateY(-25deg) rotateZ(-90deg) translateY(159px) translateX(-29px);
+  opacity: 0; }
+
+.section_2 {
+  background: green;
+  transform: translateZ(-208px) rotateX(71deg) rotateY(5deg) rotateZ(-34deg) translateY(159px) translateX(-29px);
+  opacity: 0; }
+
+.section_3 {
+  background: purple;
+  transform: translateZ(-208px) rotateX(57deg) rotateY(56deg) rotateZ(-54deg) translateY(-175px) translateX(-35px);
+  opacity: 0; }
+
+.section_4 {
+  background: red;
+  transform: translateZ(-208px) rotateX(94deg) rotateY(22deg) rotateZ(-26deg) translateY(150px) translateX(135px);
+  opacity: 0; }
 
 /*# sourceMappingURL=main.css.map */

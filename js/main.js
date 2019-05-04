@@ -26,8 +26,8 @@ itOne.addEventListener("mouseenter", function( event ) {
      colorFour.style.opacity = '0';
      frame1.style.opacity = '0';
      frame2.style.opacity = '0';
-     frame3.style.opactiy = '0';
-     frame4.style.opactiy = '0';
+     frame3.style.opacity = '0';
+     frame4.style.opacity = '0';
 });
 
 itOne.addEventListener("click",  function( event ) {   
@@ -40,6 +40,29 @@ itOne.addEventListener("click",  function( event ) {
      frame1.style.opacity = '1';
 
 });
+itTree.addEventListener("mouseenter", function( event ) {   
+    // met en surbrillance la cible de mouseenter
+     menu3d.style.transform = 'rotateX(65deg) rotateY(-8deg)' ;
+     colorThree.style.opacity = '1';
+     colorTwo.style.opacity = '0';
+     colorOne.style.opacity = '0';
+     colorFour.style.opacity = '0';
+     frame1.style.opacity = '0';
+     frame2.style.opacity = '0';
+     frame3.style.opacity = '0';
+     frame4.style.opacity = '0';
+});
+itTree.addEventListener("click",  function( event ) {   
+    // met en surbrillance la cible de mouseenter
+     menu3d.style.transform = 'rotateX(-25deg) rotateY(-76deg)' ;
+     colorOne.style.opacity = '0';
+     colorTwo.style.opacity = '0';
+     colorThree.style.opacity = '0';
+     colorFour.style.opacity = '0';
+     frame3.style.opacity = '1';
+   
+});
+
 
 
 itTwo.addEventListener("mouseenter", function( event ) {   
@@ -51,8 +74,8 @@ itTwo.addEventListener("mouseenter", function( event ) {
      colorFour.style.opacity = '0';
      frame1.style.opacity = '0';
      frame2.style.opacity = '0';
-     frame3.style.opactiy = '0';
-     frame4.style.opactiy = '0';
+     frame3.style.opacity = '0';
+     frame4.style.opacity = '0';
 });
 itTwo.addEventListener("click",  function( event ) {   
     // met en surbrillance la cible de mouseenter
@@ -64,28 +87,7 @@ itTwo.addEventListener("click",  function( event ) {
      frame2.style.opacity = '1';
 });
 
-itTree.addEventListener("mouseenter", function( event ) {   
-    // met en surbrillance la cible de mouseenter
-     menu3d.style.transform = 'rotateX(65deg) rotateY(-8deg)' ;
-     colorThree.style.opacity = '1';
-     colorTwo.style.opacity = '0';
-     colorOne.style.opacity = '0';
-     colorFour.style.opacity = '0';
-     frame1.style.opacity = '0';
-     frame2.style.opacity = '0';
-     frame3.style.opactiy = '0';
-     frame4.style.opactiy = '0';
-});
-itTree.addEventListener("click",  function( event ) {   
-    // met en surbrillance la cible de mouseenter
-     menu3d.style.transform = 'rotateX(-25deg) rotateY(-76deg)' ;
-     colorOne.style.opacity = '0';
-     colorTwo.style.opacity = '0';
-     colorThree.style.opacity = '0';
-     colorFour.style.opacity = '0';
-     frame3.style.opactiy = '1';
-   
-});
+
 
 
 itFour.addEventListener("mouseenter", function( event ) {   
@@ -97,8 +99,8 @@ itFour.addEventListener("mouseenter", function( event ) {
      colorFour.style.opacity = '1';
      frame1.style.opacity = '0';
      frame2.style.opacity = '0';
-     frame3.style.opactiy = '0';
-     frame4.style.opactiy = '0';
+     frame3.style.opacity = '0';
+     frame4.style.opacity = '0';
 });
 
 itFour.addEventListener("click",  function( event ) {   
@@ -108,5 +110,5 @@ itFour.addEventListener("click",  function( event ) {
      colorTwo.style.opacity = '0';
      colorThree.style.opacity = '0';
      colorFour.style.opacity = '0';
-     frame4.style.opactiy = '1';
+     frame4.style.opacity = '1';
 });

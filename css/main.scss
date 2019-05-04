@@ -112,7 +112,7 @@ section img {
 	height: 280px;
 	width: 500px;
 	transform: rotateX(0deg) translateZ(170px) translateY(158px);
-	backface-visibility: hidden;
+	// backface-visibility: hidden;
 	transition: 2s ease;
 
 }
@@ -131,7 +131,7 @@ section img {
 	height: 280px;
 	width: 500px;
 	transform: rotateX(-30deg) translateY(312px) translateZ(295px) ;
-	backface-visibility: hidden;
+	// backface-visibility: hidden;
 	transition: 2s ease;
 
 
@@ -151,7 +151,7 @@ section img {
 	height: 280px;
 	width: 500px;
 	transform: rotateX(-65deg) translateY(341px) translateZ(501px) ;
-	backface-visibility: hidden;
+	// backface-visibility: hidden;
 	transition: 2s ease;
 
 
